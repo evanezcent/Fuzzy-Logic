@@ -29,7 +29,7 @@ public class Fuzzification {
         else if (30 < nilaiTulis && nilaiTulis <= 50){
             tipe = "RENDAH";
             nilaiFuzzy =  (float)Math.abs((nilaiTulis - 50))/(50 - 30);
-            System.out.println(nilaiFuzzy);
+//            System.out.println(nilaiFuzzy);
         }
         if (tipe.equals("RENDAH")){
             test = new DataFuzzy(tipe, nilaiFuzzy);

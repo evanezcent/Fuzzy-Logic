@@ -46,12 +46,12 @@ public class Fuzzy {
         System.out.println("WAWANCARA");
         Fuzzy.wawancaraFuzzy(scoreWawancara);
         if (Fuzzy.Wawancara.size() <= 1){
-            System.out.println("Hasil Tulis : "+ Fuzzy.Wawancara.get(0).nilaiFuzzy);
-            System.out.println("Kategori Tulis : " + Fuzzy.Wawancara.get(0).tipe);
+            System.out.println("Hasil Wawancara : "+ Fuzzy.Wawancara.get(0).nilaiFuzzy);
+            System.out.println("Kategori Wawancara : " + Fuzzy.Wawancara.get(0).tipe);
         }
         else{
-            System.out.println("Hasil Tulis : "+ Fuzzy.Wawancara.get(0).nilaiFuzzy + "||" + Fuzzy.Wawancara.get(1).nilaiFuzzy);
-            System.out.println("Kategori Tulis : " + Fuzzy.Wawancara.get(0).tipe + "||" + Fuzzy.Wawancara.get(1).tipe);
+            System.out.println("Hasil Wawancara : "+ Fuzzy.Wawancara.get(0).nilaiFuzzy + "||" + Fuzzy.Wawancara.get(1).nilaiFuzzy);
+            System.out.println("Kategori Wawancara : " + Fuzzy.Wawancara.get(0).tipe + "||" + Fuzzy.Wawancara.get(1).tipe);
         }
         
         System.out.println("");
